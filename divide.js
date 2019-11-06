@@ -1,5 +1,7 @@
 const divide = (a,b) =>{
     let result = a/b
+    if ( b === 0){
+        return 0
 
     if ( b === 0){
         return 0
@@ -9,6 +11,7 @@ const divide = (a,b) =>{
 
     }
 }
+
 
 console.log(divide(5,0))
 
