@@ -1,11 +1,13 @@
 const divide = (a,b) =>{
     let result = a/b
-    if (a === 0 || b === 0){
-        return null
+    if ( b === 0){
+        return 0
     }else{
         return result
 
     }
 }
+
+console.log(divide(5,0))
 
 module.exports = divide;
